@@ -1,0 +1,111 @@
+
+
+    body {
+        font-family: Arial, sans-serif;
+        background: #f4f7fb;
+        margin: 0;
+        padding: 30px;
+        color: #25254b;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 32px;
+        color: white;
+        padding: 25px;
+        border-radius: 15px;
+        background: linear-gradient(to right, #cf9aff, #65b8ff);
+        box-shadow: 0 5px 15px rgba(100, 100, 200, 0.2);
+    }
+
+    .chat {
+        background: linear-gradient(120deg, #f1d5ff, #c2e0ff);
+        padding: 20px 25px;
+        margin: 20px auto;
+        max-width: 1000px;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        transition: transform 0.3s ease;
+    }
+
+    .chat:hover {
+        transform: translateY(-4px);
+    }
+
+    .chat p {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    .msg {
+        background: linear-gradient(to right, #ffffff, #edf5ff);
+        padding: 12px 18px;
+        border-radius: 12px;
+        margin: 15px 0;
+        border-left: 4px solid #9875ed;
+        overflow-wrap: anywhere;
+    }
+
+    .msg p {
+        margin: 0;
+        font-size: 17px;
+        color: #333366;
+    }
+
+    hr {
+        border: none;
+        height: 1px;
+        background: rgba(120, 100, 200, 0.25);
+        margin-top: 20px;
+    }
+
+form {
+    text-align: center;
+}
+
+
+.chat-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.edit-btn {
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    background-color: #483dce;
+}
+
+.delete-btn:hover {
+    background-color: #d93636;
+}
+
+.new-chat-btn {
+    background-color: #7c3aed;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.new-chat-btn:hover {
+    background-color: #5b21b6;
+}
