@@ -1,6 +1,5 @@
 # Mongoose-with-Express-Mini-Chat-Box
 
-Mongoose with Express – Mini Chat Box 💬
 
 📌 About the Project
 
