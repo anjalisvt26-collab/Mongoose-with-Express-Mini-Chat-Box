@@ -25,3 +25,17 @@ This project helped me understand how the frontend, backend, and database work t
 📅 Store the date and time of each message.
 
 🛠️ Perform basic CRUD operations.
+
+🛠️ Technologies Used
+
+Node.js – JavaScript runtime environment.
+
+Express.js – Backend web framework.
+
+MongoDB – NoSQL database.
+
+Mongoose – MongoDB object modeling library.
+
+EJS – Embedded JavaScript templating engine.
+
+HTML & CSS – Structure and styling.
